@@ -1,0 +1,38 @@
+body {
+    margin: 0px;
+}
+
+.imglogo {
+    margin-left: 120px;
+}
+
+header {
+    background-color: #bbbbbb;
+}
+
+header li {
+    display: inline;
+}
+
+header nav {
+    float: right;
+    vertical-align: top;
+    margin-top: 95px;
+    margin-right: 120px;
+}
+
+.table {
+    display: table;
+    border-spacing: 20px;
+}
+
+.tablerow {
+    display: table-row;
+}
+
+.tablecell {
+    display: table-cell;
+    border: solid 1px black;
+    border-radius: 15px;
+    
+}
