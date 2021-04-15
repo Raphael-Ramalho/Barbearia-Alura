@@ -4,18 +4,24 @@ body {
 }
 
 .imglogo {
-    margin-left: 120px;
     width: 150px;
 }
 
 header {
     background-color: #bbbbbb;
+    padding: 20px 0px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: auto;
 }
 
 header nav {
     position: absolute;
     top: 80px;
-    right: 60px;
+    right: 0px;
     font-weight: bold;
 }
 
