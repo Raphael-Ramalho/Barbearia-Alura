@@ -40,54 +40,53 @@ a:hover {
     text-decoration: underline;
 }
 
-.table {
-    display: table;
-    border-spacing: 20px;
-    width: 910;
-    padding: 20px 0px;
-    margin-left: auto;
-    margin-right: auto;
+main {
+    padding: 10px 0px;
     background-color: white;
 }
 
-.tabelaProdutos {
-    background-color: white;
+.produtos {
+    width: 940px;
+    margin: 20px auto;
 }
 
-.tablerow {
-    display: table-row;
-}
-
-.tablecell {
-    display: table-cell;
+.produtos li {
+    display: inline-block;
+    text-align: center;
     border: solid 2px black;
     border-radius: 10px;
-    text-align: center;
-    font-size: 22px;
-    font-weight: bolder;
-    padding: 10px;
-    width: 210px;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 0px 20px;
+    box-sizing: border-box;
 }
 
-.tablecell:hover {
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:hover {
     border-color: #c78619;
 }
 
-.tablecell:active {
+.produtos li:active {
     border-color: green;
 }
 
-.tablecell:hover h2 {
-    font-size: 35px;
+.produto-descricao {
+    font-size: 18px;
 }
 
-.celldescricao {
-    font-size: 19px;
-    font-weight: lighter;
-}
-
-.tablecell p {
-    margin: 10px;
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer div {
