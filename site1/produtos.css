@@ -36,7 +36,7 @@ nav a {
 }
 
 a:hover {
-    color: rgb(255, 255, 0);
+    color: #c78619;
     text-decoration: underline;
 }
 
@@ -61,12 +61,24 @@ a:hover {
 .tablecell {
     display: table-cell;
     border: solid 2px black;
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     font-size: 22px;
     font-weight: bolder;
     padding: 10px;
     width: 210px;
+}
+
+.tablecell:hover {
+    border-color: #c78619;
+}
+
+.tablecell:active {
+    border-color: green;
+}
+
+.tablecell:hover h2 {
+    font-size: 35px;
 }
 
 .celldescricao {
