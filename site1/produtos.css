@@ -1,6 +1,5 @@
 body {
     margin: 0px;
-    background-color: black;
 }
 
 .imglogo {
@@ -42,7 +41,7 @@ a:hover {
 
 main {
     padding: 10px 0px;
-    background-color: white;
+    height: 520px;
 }
 
 .produtos {
@@ -89,18 +88,13 @@ main {
     margin-top: 10px;
 }
 
-footer div {
-    width: 400px;
-    margin-right: auto;
-    margin-left: auto;
+footer {
     text-align: center;
+    background-image: url(imagens/bg.jpg);
+    padding: 20px 0px;
 }
 
-footer img {
-    width: 80px;
-    margin-top: 40px;
-}
-
-footer p {
+.copyright {
     color: white;
+    font-size: 13px;
 }
