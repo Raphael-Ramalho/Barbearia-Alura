@@ -13,10 +13,9 @@ header {
 }
 
 header nav {
-    float: right;
-    vertical-align: top;
-    margin-top: 85px;
-    margin-right: 120px;
+    position: absolute;
+    top: 80px;
+    right: 60px;
     font-weight: bold;
 }
 
