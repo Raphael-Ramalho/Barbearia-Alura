@@ -39,14 +39,11 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 10px 0px;
-    height: 520px;
-}
-
 .produtos {
     width: 940px;
+    height: 480px;
     margin: 20px auto;
+    padding: 10px 0px;
 }
 
 .produtos li {
