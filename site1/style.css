@@ -2,10 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.imglogo {
-    width: 150px;
-}
-
 header {
     background-color: #bbbbbb;
     padding: 20px 0px;
@@ -14,28 +10,29 @@ header {
 .caixa {
     position: relative;
     width: 940px;
-    margin: auto;
+    margin: 0 auto;
 }
 
-header nav {
+nav {
     position: absolute;
-    top: 90px;
+    top: 110px;
     right: 0px;
-    font-weight: bold;
-    font-size: 20px;
 }
 
-header nav li {
+nav li {
     display: inline;
-    margin: 10px;
+    margin: 0 0 0 15px;
 }
 
 nav a {
     color: black;
     text-decoration: none;
+    transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
 }
 
-a:hover {
+nav a:hover {
     color: #c78619;
     text-decoration: underline;
 }
@@ -157,7 +154,7 @@ td, th {
 footer {
     text-align: center;
     background-image: url(imagens/bg.jpg);
-    padding: 20px 0px;
+    padding: 40px 0px;
 }
 
 /*Css da pagina inicial*/
@@ -212,6 +209,11 @@ footer {
     margin: 0px auto;
 }
 
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
 .beneficios {
     padding: 3em 0;
     background-color: #888888;
@@ -225,8 +227,6 @@ footer {
 .lista-beneficios {
     width: 40%;
     display: inline-block;
-    list-style-type: none;
-    padding-left: 0px;
     vertical-align: top;
 }
 
@@ -242,16 +242,11 @@ footer {
     width: 60%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 8px black;
+    box-shadow: 10px 10px 8px 0 black;
 }
 
 .img-beneficios:hover {
     opacity: 0.3;
-}
-
-.mapa p{
-    margin: 0 0 2em;
-    text-align: center;
 }
 
 .video {
