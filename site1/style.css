@@ -41,11 +41,6 @@ a:hover {
     text-decoration: underline;
 }
 
-main {
-    width: 940px;
-    margin: 0px auto;
-}
-
 .produtos {
     height: 480px;
     padding: 10px 0px;
@@ -173,6 +168,18 @@ footer {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    font-weight: normal;
+}
+
+.itens:before {
+    content: "\2605   ";
+}
+
+.principal {
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0px auto;
 }
 
 .principal p {
@@ -195,10 +202,17 @@ footer {
 
 .mapa {
     padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0px auto;
 }
 
 .beneficios {
     padding: 3em 0;
+    background-color: #888888;
 }
 
 .conteudo-beneficios {
@@ -224,6 +238,13 @@ footer {
 
 .img-beneficios {
     width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 8px black;
+}
+
+.img-beneficios:hover {
+    opacity: 0.3;
 }
 
 .mapa p{
