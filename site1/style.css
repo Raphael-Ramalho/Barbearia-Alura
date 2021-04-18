@@ -1,5 +1,4 @@
 body {
-    margin: 0px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -20,7 +19,7 @@ header {
 
 header nav {
     position: absolute;
-    top: 80px;
+    top: 90px;
     right: 0px;
     font-weight: bold;
     font-size: 20px;
@@ -43,7 +42,6 @@ a:hover {
 
 .produtos {
     height: 480px;
-    padding: 10px 0px;
 }
 
 .produtos li {
@@ -54,13 +52,14 @@ a:hover {
     width: 30%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 0px 20px;
+    padding: 0px 10px;
     box-sizing: border-box;
 }
 
 .produtos h2 {
     font-size: 30px;
     font-weight: bold;
+    padding: 1em 0;
 }
 
 .produtos li:hover h2 {
@@ -91,7 +90,7 @@ a:hover {
 }
 
 form {
-    margin: 40px 0px 30px;
+    margin: 30px 0px;
 }
 
 form label, form legend {
@@ -113,8 +112,11 @@ form label, form legend {
 
 fieldset {
     border: none;
-    padding: 0px;
-    margin: 0px;
+    margin: 15px 0;
+}
+
+.formaDeContato label{
+    font-size: 0.9em;
 }
 
 .enviar {
@@ -168,7 +170,6 @@ footer {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-    font-weight: normal;
 }
 
 .itens:before {
@@ -184,6 +185,7 @@ footer {
 
 .principal p {
     margin: 0 0 1em;
+    line-height: 1.3em;
 }
 
 .principal strong {
@@ -197,11 +199,11 @@ footer {
 .utensilios {
     width: 120px;
     float: left;
-    margin: 0 20px 20px 0;
+    margin: 0 15px 10px 0;
 }
 
 .mapa {
-    padding: 3em 0;
+    padding: 2em 0;
     background: linear-gradient(#fefefe,#888888);
 }
 
