@@ -7,6 +7,10 @@ header {
     padding: 20px 0px;
 }
 
+header img{
+    max-height: 150px;
+}
+
 .caixa {
     position: relative;
     width: 940px;
@@ -15,7 +19,7 @@ header {
 
 nav {
     position: absolute;
-    top: 110px;
+    top: 75px;
     right: 0px;
 }
 
@@ -160,6 +164,8 @@ footer {
 /*Css da pagina inicial*/
 .banner {
     width: 100%;
+    opacity: 0.5;
+    background-color: black;
 }
 
 .titulo-principal {
